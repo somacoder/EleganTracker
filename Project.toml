@@ -1,0 +1,14 @@
+name = "EleganTracker"
+version = "0.1.0"
+authors = ["SomaCoder"]
+description = "A Julia package for tracking C. elegans head movement using computer vision."
+
+[deps]
+Julia = "1.6"
+Images = "^0.24.1"
+VideoIO = "^0.9.0"
+
+[compat]
+julia = "1.6"
+Images = "0.24"
+VideoIO = "0.9"
